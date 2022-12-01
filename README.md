@@ -35,7 +35,7 @@ Build a simple library management page where
  
  ### Step-2:
  
- Now, that we know what we need its and what we should do its time to implement our idea.
+ Now, that we know what we and what we should do its time to implement our idea.
  
  1. html main page 
  2. css style sheet
@@ -45,8 +45,8 @@ Build a simple library management page where
  6. login and sign-up page - (this would be part of back-end using php and mysql server)
  
  
- Hope you like it!
- Got any doubts or comments - please comment!
+Hope you like it!
+Got any doubts or comments - please comment!
 
  
  
