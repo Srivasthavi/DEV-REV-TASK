@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>LIBRARY</title>
+    <script type="text/javascript" src="code.js">
+    </script>
+  </head>
+  <body>
+      <ul>
+  <li><a href="login_form.php">LOGIN</a></li>
+  <li><a href="register_form.php">SIGN-UP</a></li>
+</ul>
+    <h1>LIBRARY</h1>
+    <div id = "quotesOfTheDay">
+    <h4 id="q"><script type="text/javascript"src="code.js">
+      newQuote();
+    </script></h4>
+    </div>
+    <div class="wrapper">
+  <div id="search-container">
+    <input align="center"
+      type="search"
+      id="search-input"
+      placeholder="Search product name here.."
+    />
+    <button id="search">Search</button>
+  </div>
+  <div id="buttons">
+      <button class="button-value" onclick="filterBooks('all')">All</button>
+      <button class="button-value" onclick="filterBooks('title')">
+        title
+      </button>
+      <button class="button-value" onclick="filterBooks('author')">
+        author
+      </button>
+      <button class="button-value" onclick="filterBooks('subject')">
+        subject
+      </button>
+      <button class="button-value" onclick="filterBooks('published')">
+        published
+      </button>
+    </div>
+    <div id="books"></div>
+  </div>
+  <!-- Script -->
+  <script src="script.js"></script>
+
+  </body>
+</html>
